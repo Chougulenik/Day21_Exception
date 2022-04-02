@@ -8,7 +8,7 @@ class MoodAnalyserTest {
 
 	@Test
 	void analyseMood() {
-		MoodAnalyse moodAnalyse = new MoodAnalyse("I am in Any mood");
+		MoodAnalyse moodAnalyse = new MoodAnalyse();
 		assertEquals("Happy",moodAnalyse.returnEmotion());
 	}
 
