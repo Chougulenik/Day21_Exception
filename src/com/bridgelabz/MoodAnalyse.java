@@ -4,8 +4,8 @@ public class MoodAnalyse {
 	
 	private String message;
 
-	public MoodAnalyse(String message) {
-		this.message = message;
+	public MoodAnalyse() {
+		
 	}
 	
 	public String returnEmotion() {
