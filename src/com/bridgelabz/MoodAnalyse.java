@@ -2,16 +2,15 @@ package com.bridgelabz;
 
 public class MoodAnalyse {
 	
-	private String message;
-	
+	private String message;	
 	public MoodAnalyse() {
 		
 	}
 	
 	public MoodAnalyse(String message) {
 		this.message = message;
-	}
-	
+  }
+  
 	public String returnEmotion() {
 		try {
 			if(message.equals("I am in sad mood")) {
